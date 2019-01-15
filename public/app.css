@@ -1,0 +1,80 @@
+body {
+    background: #163762;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 1.3em;
+    color: #fff;
+    margin: 0;
+}
+
+div.todo_wrapper {
+    max-width: 100%;
+    margin: 50px 50px 0;
+}
+
+.header h1 {
+    color: #fff;
+    margin-top: 0;
+    padding: 20px;
+    background: #0f2645;
+    font-weight: 100;
+    font-family: helvetica;
+    letter-spacing: -2px;
+    font-size: 1.5em;
+}
+
+.todo_wrapper input {
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    font-size: 1em;
+    padding: 20px;
+    display: block;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.todo_wrapper>div {
+    overflow: auto;
+    height: calc(100vh - 210px);
+}
+
+.todo_wrapper div ul li {
+    padding: 15px 0;
+    list-style-position: inside;
+    cursor: pointer;
+    transition: .1s;
+    font-weight: 400;
+}
+
+.delete_item {
+    color: #e6629e;
+    float: right;
+    padding: 0 15px;
+    opacity: 1;
+    transition: .5s;
+}
+
+.todo_wrapper div ul li:hover {
+    background-color: #96b9ddb3;
+}
+
+.todo_wrapper div ul li:hover span.delete_item {
+    opacity: 1;
+}
+
+.list_group {
+    padding: 0;
+}
+
+.completedItem {
+    text-decoration: line-through;
+    opacity: .5;
+    font-weight: 100 !important;
+}
+
+@media all and (max-width:500px) {
+    div.todo_wrapper {
+        margin: 35px 25px 0;
+    }
+}
