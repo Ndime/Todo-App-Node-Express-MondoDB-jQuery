@@ -2,9 +2,8 @@
 This is a Simple Todo Application that make use of REST API with NodeJS, Express &amp; MonogoDB
 
 
-# For Amazon Cloud Users: How to Install MondDB in EC2 Instance
+# For C9 Amazon Cloud Users: Just follow the steps below to install MongoDB after creating your EC2 instance for C9.
 
-Just follow the steps below to install MongoDB after creating your EC2 instance for C9.
 
 Run the command <code>sudo nano /etc/yum.repos.d/mongodb-org-3.6.repo</code> on the shell
 
