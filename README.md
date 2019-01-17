@@ -9,7 +9,7 @@ This is a Simple Todo Application that make use of REST API with NodeJS, Express
  <li>previuew app on <b>port 3000</b> of your <b>localhost</b></code></li>
 </ul>
 
-# Amazon Based(Linux): Just follow the steps below to install MongoDB after creating your EC2 instance for C9.
+# Amazon Based(Linux): How to install MongoDB after creating your EC2 instance for C9.
 <ul>
 <li>Run the following commands <code>sudo nano /etc/yum.repos.d/mongodb-org-3.6.repo</code> on the shell</li>
 
