@@ -6,7 +6,7 @@ This is a Simple Todo Application that make use of REST API with NodeJS, Express
  <li>Clone git repository to your environment</li>
  <li>Before running make sure to install MongoDB on your environment corrently. See instructions below to insall for Amazon based linux OS. For other linux environments paste thefollowing code to install MongoDB <ul><li><code>sudo apt-get install -y mongodb-org</code></li><li><code>mkdir data</code></li><code>echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > mongod</code><li><code>chmod a+x monogod</code></li><li>Go to application directory and run <code>npm install mongoose --save</code> on the terminal to install Moongoose</li></ul></li>
   <li>While still on application directory, run <code>node index.js</code> on the terminal</li>
- <li>previuew app on <b>port 3000</b> of your <b>localhost</b></code></li>
+ <li>preview app on <b>port 3000</b> of your <b>localhost</b></code></li>
 </ul>
 
 # Amazon Based(Linux): How to install MongoDB after creating your EC2 instance for C9.
