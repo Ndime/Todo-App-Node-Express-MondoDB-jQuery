@@ -6,6 +6,7 @@ This is a Simple Todo Application that make use of REST API with NodeJS, Express
  <li>Clone git repository to your environment</li>
  <li>Before running make sure to install MongoDB on your environment corrently. See instructions below to insall for Amazon based linux OS. </li>
   <li>Go to application directory and run <code>node index.js</code></li>
+ <li>previuew app on <b>port 3000</b> of your <b>localhost</b></code></li>
 </ul>
 
 # Amazon Based(Linux): Just follow the steps below to install MongoDB after creating your EC2 instance for C9.
